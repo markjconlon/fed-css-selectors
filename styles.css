@@ -31,3 +31,22 @@ header{
 #item2{
   text-align: right;
 }
+article ol > li{
+  padding: 30px;
+  background-color: grey;
+}
+article ol > li:nth-child(2n){
+  background-color: green;
+}
+article ol li:nth-child(4) a:hover{
+text-decoration: none;
+}
+article ol li:nth-child(5) li{
+background-color: white;
+}
+article ol li:nth-child(5) li a:hover{
+background-color: yellow;
+}
+article ol li:nth-child(5) li a:active{
+background-color: red;
+}
